@@ -29,7 +29,7 @@ def list_items_dir(dir: str) -> list[dict]:
     return items
 
 
-# Example: show packages and extensions of the current directory as JSON
+# Example: show packages and extensions of the current directory as JSON, you can choose a diferent directory put it as a String in function's paramater.
 data = list_items_dir(current_dir())
 json_output = json.dumps(data, indent=4)
 
