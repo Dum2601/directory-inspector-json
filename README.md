@@ -139,4 +139,3 @@ python main.py
 This project is licensed under the MIT Licence.
 See the LICENSE file for more information.
 
-```
