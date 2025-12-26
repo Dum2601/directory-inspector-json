@@ -33,4 +33,5 @@ def list_items_dir(dir: str) -> list[dict]:
 data = list_items_dir(current_dir())
 json_output = json.dumps(data, indent=4)
 
+# Just to show the return in terminal
 print(json_output)
